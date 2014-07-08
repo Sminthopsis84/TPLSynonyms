@@ -14,9 +14,10 @@ For example, for Sisyrinchium acre H.Mann, at http://www.theplantlist.org/tpl1.1
 the database lists Bermudiana acris (H.Mann) Kuntze as a synonym with high confidence level.
 Paste the URL and the copied text into the URL box and input boxes respectively. The text could be, e.g.:
 
+```
 Name Status Confidence level Source Date supplied
-
 Bermudiana acris (H.Mann) Kuntze Synonym *** iPlants 2012-03-23
+```
 
 The program discards lines that don't contain the word "Synonym", any with low confidence, and any that
 contain the word "sensu", which indicates (mis)use of a plant name, rather than establishment of a name.
