@@ -4,6 +4,10 @@ TPLSynonyms
 This program produces code for a synonym list that can be inserted into a Wikipedia taxobox,
 derived from text copied and pasted from www.theplantlist.org. It optionally includes Wikipedia
 code to hide (collapse) the synonym list. The program has a help page accessible by clicking a button.
+Licensed under the MIT license 2014 by Peter Coxhead and the wikipedian known as Sminthopsis84.
+
+The source code consists of an HTML file Convert TLP synonyms for Wikipedia.html and a javascript source file
+convert.js
 
   Usage
   =====
