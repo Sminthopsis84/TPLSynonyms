@@ -9,8 +9,7 @@ Licensed under the MIT license 2014 by Peter Coxhead and the wikipedian known as
 The source code consists of an HTML file Convert TLP synonyms for Wikipedia.html and a javascript source file
 convert.js
 
-  Usage\n
-  =====\n
+#Usage
 For example, for Sisyrinchium acre H.Mann, at http://www.theplantlist.org/tpl1.1/record/kew-324946
 the database lists Bermudiana acris (H.Mann) Kuntze as a synonym with high confidence level.
 Paste the URL and the copied text into the URL box and input boxes respectively. The text could be, e.g.:
