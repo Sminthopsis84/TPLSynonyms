@@ -83,12 +83,12 @@ function convert()
 //finish up writing the wikipedia encoding
   writeln('    }}'); //close the wikipedia Plainlist template
   if (hideSynonyms.checked) writeln('  }}'); //close the wikipedia Collapse template
-  writeln('|synonyms_ref = <ref>{{cite web');
+  writeln('|synonyms_ref = &#60;ref>{{cite web');
   writeln ('|url=' + urlString);
   writeln ('|title=The Plant List: A Working List of All Plant Species');
   var d = new Date();
   writeln ('|accessdate=' + d.getUTCDate() + ' ' + month[d.getUTCMonth()] + ' '
-     + d.getUTCFullYear() + '}}</ref>');
+     + d.getUTCFullYear() + '}}&#60;/ref>');
   
   //writeln('***Convert terminated.'); 
 }
@@ -221,8 +221,10 @@ var _outputBuffer;
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // Variables which determine how text is output.
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-var LFT = '<span style="white-space: pre; font-family: monospace">';
-var RGT = '</span>';
+//var LFT = '<span style="white-space: pre; font-family: monospace">';
+//var RGT = '</span>';
+var LFT = '';
+var RGT = '';
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // startOutput(obj,msg): initializes the output buffer and sets up
@@ -259,7 +261,7 @@ var print = write;
 // println is a synonym of writeln.
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 function writeln(msg)
-{ _outputBuffer += (LFT+msg+RGT+'<br />');
+{ _outputBuffer += (LFT+msg+RGT+'\n');
 }
 var println = writeln;
 
