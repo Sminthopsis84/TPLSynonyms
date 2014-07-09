@@ -4,10 +4,15 @@ TPLSynonyms
 This program produces code for a synonym list that can be inserted into a Wikipedia taxobox,
 derived from text copied and pasted from www.theplantlist.org. It optionally includes Wikipedia
 code to hide (collapse) the synonym list. The program has a help page accessible by clicking a button.
-Licensed under the MIT license 2014 by Peter Coxhead and the wikipedian known as Sminthopsis84.
+Licensed under the MIT license 2014 by Peter Coxhead and Sminthopsis84.
 
-The source code consists of an HTML file Convert TLP synonyms for Wikipedia.html and a javascript source file
-convert.js
+The source code consists of an HTML file tPLSynonyms.html and a javascript source file convertTPL.js
+The files are available at https://github.com/Sminthopsis84/TPLSynonyms
+downloadable as a ZIP archive, along with this readme.md, license.md, and the original tPLApplet.java source
+on which the html-javascript version is based.
+
+When tPLSynonyms.html and convertTPL.js are in the same directory (folder) on the user's computer, open
+tPLSynonyms.html in a browser window, and the program executes interactively.
 
 #Usage
 For example, for Sisyrinchium acre H.Mann, at http://www.theplantlist.org/tpl1.1/record/kew-324946
