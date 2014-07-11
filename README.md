@@ -2,8 +2,8 @@ TPLSynonyms
 ===========
 
 This program produces code for a synonym list that can be inserted into a Wikipedia taxobox,
-derived from text copied and pasted from www.theplantlist.org. It optionally includes Wikipedia
-code to hide (collapse) the synonym list. The program has a help page accessible by clicking a button.
+derived from text copied and pasted from www.theplantlist.org.
+
 Licensed under the MIT license 2014 by Peter Coxhead and Sminthopsis84.
 
 The source code consists of an HTML file tPLSynonyms.html and a javascript source file convertTPL.js
@@ -27,7 +27,11 @@ Bermudiana acris (H.Mann) Kuntze Synonym *** iPlants 2012-03-23
 The program discards lines that don't contain the word "Synonym", any with low confidence, and any that
 contain the word "sensu", which indicates (mis)use of a plant name, rather than establishment of a name.
 
-For a more complex example, a Wikipedian might wish to make a page about a species for which The Plant List
+It optionally includes Wikipedia
+code to hide (collapse) the synonym list. The program has a help page accessible by clicking a button.
+
+#A more complex example
+A Wikipedian might wish to make a page about a species for which The Plant List
 has separate synonym lists for infraspecific taxa. For example, the synonym list text from
 Sisyrinchium arenarium and Sisyrinchium arenarium subsp. adenostemon can be pasted together as input to the program,
 which will sort the two lists together. The URL for the citation could be listed as:
